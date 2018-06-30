@@ -8,7 +8,7 @@
     "setup": "npx react-native eject",
     "android": "npx react-native run-android",
     "ios": "npx react-native run-ios",
-    "start": "npx react-native start && npx react-native link"
+    "start": "npx react-native link && npx react-native start"
   },
   "keywords": [
     "react-native",
@@ -22,6 +22,25 @@
     "react-native": "^0.55.4"
   },
   "devDependencies": {
-    "react-native-cli": "^2.0.1"
+    "@types/react": "^16.4.6",
+    "@types/react-native": "^0.55.26",
+    "react-native-cli": "^2.0.1",
+    "react-native-typescript-transformer": "^1.2.10",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }

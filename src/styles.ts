@@ -1,6 +1,11 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, TextStyle, ViewStyle } from "react-native";
 
-const styles = StyleSheet.create({
+interface Styles {
+  text: TextStyle;
+  view: ViewStyle;
+}
+
+const styles = StyleSheet.create<Styles>({
   text: {
     fontSize: 20,
   },

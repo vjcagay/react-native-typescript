@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "jsx": "react-native",
+    "noImplicitAny": true,
+    "module": "es2015",
+    "sourceMap": true,
+    "target": "es2015",
+    "types": [
+      "node",
+      "jest",
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "interface-name": false,
+    "trailing-comma": true
+  },
+  "jsRules": {
+    "trailing-comma": true
+  }
+}
