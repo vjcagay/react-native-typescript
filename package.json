@@ -1,0 +1,27 @@
+{
+  "name": "react-native-typescript",
+  "version": "1.0.0",
+  "description": "Develop React-Native Applications with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "setup": "npx react-native eject",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
+    "start": "npx react-native start && npx react-native link"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "typescript"
+  ],
+  "author": "Vincent John Cagay",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-native": "^0.55.4"
+  },
+  "devDependencies": {
+    "react-native-cli": "^2.0.1"
+  }
+}
