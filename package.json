@@ -8,7 +8,8 @@
     "setup": "npx react-native eject",
     "android": "npx react-native run-android",
     "ios": "npx react-native run-ios",
-    "start": "npx react-native link && npx react-native start"
+    "start": "REACT_DEBUGGER=\"rndebugger-open --open --port 8081\" npx react-native link && npx react-native start",
+    "postinstall": "rndebugger-open"
   },
   "keywords": [
     "react-native",
@@ -30,6 +31,7 @@
     "babel-preset-react-native": "^4.0.0",
     "jest": "^23.2.0",
     "react-native-cli": "^2.0.1",
+    "react-native-debugger-open": "^0.3.17",
     "react-native-typescript-transformer": "^1.2.10",
     "react-test-renderer": "^16.4.1",
     "ts-jest": "^23.0.0",
