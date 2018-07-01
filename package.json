@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest --coverage",
     "setup": "npx react-native eject",
-    "android": "npx react-native run-android",
-    "ios": "npx react-native run-ios",
-    "start": "REACT_DEBUGGER=\"rndebugger-open --open --port 8081\" npx react-native link && npx react-native start",
+    "android": "npx react-native run-android --port 8081",
+    "ios": "npx react-native run-ios --port 8082",
+    "start-android": "REACT_DEBUGGER=\"rndebugger-open --open --port 8081\" npx react-native link && npx react-native start --port 8081",
+    "start-ios": "REACT_DEBUGGER=\"rndebugger-open --open --port 8082\" npx react-native link && npx react-native start --port 8082",
     "postinstall": "rndebugger-open"
   },
   "keywords": [
