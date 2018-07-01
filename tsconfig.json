@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": false,
-    "jsx": "react-native",
+    "jsx": "react",
     "noImplicitAny": true,
     "module": "es2015",
     "sourceMap": true,
